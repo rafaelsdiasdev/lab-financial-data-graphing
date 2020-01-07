@@ -60,18 +60,3 @@ const filterByDate = () => {
         })
         .catch(err => console.log("Error is: ", err.status));
 }
-
-// document.getElementById('test').onclick = function () {
-//     let selected = document.querySelectorAll('option:checked')
-//     let selectCurrency = selected[0].value
-//     let querrycurrency = `?currency=${selectCurrency}`
-//     // console.log(selected[0].value);
-//     console.log(selectCurrency)
-
-//     axios
-//         .get(apiUrl + querrycurrency)
-//         .then(responseFromAPI => {
-//             printTheChart(responseFromAPI.data)
-//         })
-//         .catch(err => console.log("Error is: ", err.status));
-// };

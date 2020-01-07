@@ -7,6 +7,6 @@ a {
   color: #00B7FF;
 }
 
-.values {
-  text-align: right;
+.form-control{
+  width: 400px;
 }
